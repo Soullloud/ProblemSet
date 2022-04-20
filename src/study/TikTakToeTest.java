@@ -2,7 +2,7 @@ package study;
 
 import java.util.Scanner;
 
-public class TikTakToe {
+public class TikTakToeTest {
     public static void main(String[] args) {
         char[][] gameBoard = new char[][]{{' ', '|', ' ', '|', ' '},
                 {'-', '+', '-', '+', '-'},
@@ -105,5 +105,7 @@ public class TikTakToe {
                 break;
         }
     }
-
+    static boolean checkWinner(){
+        return true;
+    }
 }

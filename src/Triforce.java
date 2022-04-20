@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class Triforce {
     public static void main (String[] args) {
-        int high = 3;
+        Scanner scan = new Scanner(System.in);
+        int high = scan.nextInt();
         for(int i = 1; i <= high; i++) {
             for(int k = high - i; k >= 0; k--) {
                 System.out.print(" ");
