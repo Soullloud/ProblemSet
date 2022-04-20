@@ -11,7 +11,12 @@ public class Methods {
         int y = scanner.nextInt();
         System.out.print("z = ");
         int z = scanner.nextInt();
-        checkNum(x, y, z);
+        System.out.println(checkNum(x, y, z));
+
+        System.out.print("Num = ");
+        int num = scanner.nextInt();
+        System.out.print(bitDepth(num));
+
     }
     static boolean checkNum(int x, int y, int z) {
         if (x < y) {
@@ -21,5 +26,13 @@ public class Methods {
         } else {
             return x == z;
         }
+    }
+    static int bitDepth(int num){
+        int count = 1;
+        while (num >= 10) {
+            count++;
+            num = num / 10;
+        }
+        return count;
     }
 }
