@@ -1,5 +1,6 @@
 package study;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class BeginString {
@@ -11,6 +12,11 @@ public class BeginString {
         System.out.print("Input words: ");
         String words = scanner.nextLine();
         separator(words);
+        System.out.print("Input first string: ");
+        String oneString = scanner.nextLine();
+        System.out.print("Input second string: ");
+        String twoString = scanner.nextLine();
+        twoStings(oneString, twoString);
     }
 
     static boolean isPalindrome(String text) {
@@ -31,5 +37,10 @@ public class BeginString {
         for (String words : word) {
             System.out.println(words);
         }
+    }
+
+    static void twoStings(String oneString, String twoString) {
+        boolean x = oneString.equals(twoString);
+        System.out.println(x);
     }
 }
