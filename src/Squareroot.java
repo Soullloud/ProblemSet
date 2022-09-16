@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Squareroot {
-    public static void main(String[] args){
+    public static void main(Strings[] args){
         Scanner scan = new Scanner(System.in);
         double x = scan.nextDouble();
         double result;

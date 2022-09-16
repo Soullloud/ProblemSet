@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Task17 {
-    public static void main(String[]args){
+    public static void main(Strings[]args){
         Scanner scan = new Scanner(System.in);
         System.out.println("Ввести кол-во элементов: ");
         int number = scan.nextInt();

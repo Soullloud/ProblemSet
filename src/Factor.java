@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Factor {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
         for (int i = 1; i <= n; i++) {

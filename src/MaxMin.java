@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class MaxMin {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int b = scan.nextInt();

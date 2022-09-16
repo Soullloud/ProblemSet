@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Numbers {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         Scanner scan = new Scanner(System.in);
         int k = scan.nextInt();
         int m = scan.nextInt();

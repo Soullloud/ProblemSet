@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Task12 {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
         int m = 0;

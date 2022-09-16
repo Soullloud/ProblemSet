@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Max {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         Scanner scan = new Scanner(System.in);
         int size = scan.nextInt();
         int[] array = new int[size];
